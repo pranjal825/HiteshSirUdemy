@@ -20,7 +20,7 @@ let cities =["London", "Tokyo","Paris","New York"];
 
  //console.log(favoriteCity);
 
- /* you have an array named 'teaTypes containing "herbal tea","white tea", and "masala chai".
+ /*3 you have an array named 'teaTypes containing "herbal tea","white tea", and "masala chai".
 
  Change the second element of the array to "jasmine tea"*/
  let teaTypes = ["herbal tea","white tea", "masala chai"]
@@ -29,7 +29,7 @@ teaTypes[1] = "jasmine tea";
 
 //console.log(teaTypes);
 
-/* declare an array named "CitiesVisited" containing "Gurgaon" and "Mohali".
+/*4 declare an array named "CitiesVisited" containing "Gurgaon" and "Mohali".
 
 Add "Banglore" to the array using the 'push' method. */
 
@@ -53,3 +53,73 @@ citiesVisited.push("Bangalore");
 
 console.log(citiesVisited);*/
 
+/* 5 you have an array named 'teaOrders' with "Chai","iced tea","earl grey".
+remove the last element of the array using the pop method and store it in a variable named 'lastOrder'.
+*/
+//let teaOrders = ["Chai","iced tea","matcha","earl"];
+//teaOrders.pop();
+//console.log(teaOrders);
+// pop automatically removes the last element.
+/*let teaOrders = ["Chai","iced tea","matcha","earl grey"];
+const lastOrder = teaOrders.pop();
+console.log(teaOrders);
+console.log(lastOrder);*/
+
+/* 6
+you have an array named 'popularTeas' containing "greentea","oolong tea", and "chai"
+Create a soft copy of this array named 'softCopyTeas'*/
+
+/*let popularTeas = ["greentea","oolongtea","chai"]
+let softcopyTeas = popularTeas;
+console.log(softcopyTeas);*/
+
+/*let popularTeas = ["greentea","oolongtea","chai"]
+let softcopyTeas = popularTeas;
+popularTeas.pop();
+console.log(softcopyTeas);
+console.log(popularTeas);*/
+
+/*7 
+You have an array named 'topCities' containing "Berlin","Singapore" and "NewYork".
+Create a hard copy of this array named 'hardcopyCities'.*/
+
+let topCities = ["Berlin","Singapore","NewYork"];
+//let hardCopyCities = [...topCities];
+let hardCopyCities = topCities.slice();
+topCities.pop();
+//console.log(hardCopyCities);
+
+/*8
+you have two arrays: 'EuropeanCities' containing "Paris","Rome" and 'asianCities' containing "Tokyo" and "Bangkok".
+Merge these two arrays into a new array named 'worldCities'.*/
+
+/*let europeanCities = ["Paris","Rome"];
+let asianCities = ["Tokyo","Bangkok"];
+let worldcities =europeanCities.concat(asianCities)
+console.log(worldcities);*/
+
+/*9
+ you have an array named 'teamenu' containg "masalachai","oolong tea","green tea", and "earl grey"/
+ find the length of the array and store it in a variable named 'menulength'.*/
+
+//  let teamenu = ["masala chai","oolong tea","green tea","earl grey"];
+//  let menuLength = teamenu.Length;
+//  console.log("length is:" menuLength); 
+
+ /*let teamenu = ["masala chai","oolong tea","green tea","earl grey"];
+
+let menulength = teamenu.length;
+
+console.log("Length is:", menulength);
+ console.log(teamenu);*/
+
+ /* 10
+  you have an array named 'cityBucketList' containing "Kyoto","London","Cape Town" and "Vancouver"
+
+  check if "London" is in the array and store the result in a variable named 'isLondonList'.
+*/
+
+let cityBucketList = ["Kyoto","London","Cape Town","Vancouver"];
+let isLondonInList = cityBucketList.includes("Kanpur");
+console.log(isLondonInList);
+//includes plays the role of Boolean.
