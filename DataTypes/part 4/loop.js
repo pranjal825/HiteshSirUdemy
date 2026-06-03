@@ -11,7 +11,7 @@ while (i <= 5) {
 //console.log(sum);
 
 /*
-2. write a 'while loop' that counts down from 5 to 1 and stores the number in an array named 'countdown'. */
+2. write a 'while loop' that counts down from 5 to 1 and stores the number in an array named 'countdown'. 
 
 let countdown = [];
 let j = 5;
@@ -23,7 +23,7 @@ console.log(countdown);
 /* 3. Write a 'do while' loop that prompts a user to enter thier favorite tea type until they enter "stop". 
 Store each tea type in an array named 'teaCollection'.*/
 
-let teaCollection = []
+let teaCollection = [] 
 let tea
 
 do {
@@ -34,3 +34,17 @@ if (tea !== "stop") {
 }
 }while(tea !=="stop");
 // console.log(teaCollection);
+/* 4. Write a 'for' loop that multiplies each element in the array '[2,4,6]' by 2 and stores the results in a new array named 'multipliedNumbers'.*/
+let total = 0
+let k =1;
+do {
+    total = total + k;
+    k++; 
+} While (k <= 3)
+/*
+5. Write a 'for' loop that multiplies each element in the array '[2,4,6]' by 2 and stores the results in a new array named 'multipliedNumbers'. */
+let multipliedNumbers = [];
+let numbers = [2, 4, 6];
+
+for (let l = 0; l ; incre/decre) {
+}
