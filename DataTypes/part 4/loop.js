@@ -21,7 +21,7 @@ while (j > 0) {
 }
 console.log(countdown);
 /* 3. Write a 'do while' loop that prompts a user to enter thier favorite tea type until they enter "stop". 
-Store each tea type in an array named 'teaCollection'.*/
+Store each tea type in an array named 'teaCollection'.
 
 let teaCollection = [] 
 let tea
@@ -33,18 +33,32 @@ if (tea !== "stop") {
     teaCollection.push(tea);
 }
 }while(tea !=="stop");
-// console.log(teaCollection);
-/* 4. Write a 'for' loop that multiplies each element in the array '[2,4,6]' by 2 and stores the results in a new array named 'multipliedNumbers'.*/
+// console.log(teaCollection);*/
+/* 4. Write a 'for' loop that multiplies each element in the array '[2,4,6]' by 2 and stores the results in a new array named 'multipliedNumbers'.
 let total = 0
 let k =1;
 do {
     total = total + k;
     k++; 
-} While (k <= 3)
+} While (k <= 3)*/
 /*
 5. Write a 'for' loop that multiplies each element in the array '[2,4,6]' by 2 and stores the results in a new array named 'multipliedNumbers'. */
-let multipliedNumbers = [];
+/*let multipliedNumbers = [];
 let numbers = [2, 4, 6];
 
-for (let l = 0; l ; incre/decre) {
+for (let l = 0; l < numbers.length; l++) {
+    takeNumber = numbers[l] * 2;
+    multipliedNumbers.push(takeNumber);
 }
+console.log(multipliedNumbers);*/
+/* 
+6. Write a 'for' loop that lists all the cities in the array'["Paris", "New York", "Tokyo", "London"]'and stores each city in a new array named 'cityList'.*/
+
+let cities = ["Paris","New York","Tokyo", "London"];
+let cityList = [];
+
+for (let c = 0; c < cities.length; c++) {
+    const myCity = cities[c];
+    cityList.push(myCity);
+}
+console.log(cityList);
